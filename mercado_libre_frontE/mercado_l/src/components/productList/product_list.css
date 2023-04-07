@@ -1,0 +1,53 @@
+.buscador{
+  align-items: center;
+  padding: 20px;
+ 
+}
+.productInfo {
+    text-decoration: none;
+    width: 90%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    transition: all 0.5s ease;
+  }
+  
+  .productInfo:hover h2 {
+    color: white;
+  }
+  
+  .productInfo:hover img {
+    color: white;
+    width: 120px;
+    height: 120px;
+  }
+  
+  .productInfo div {
+    flex-grow: 1;
+    padding: 10px;
+  }
+  
+  .productInfo div h2 {
+    color: black;
+    font-size: 16px;
+  }
+  
+  .productInfo img {
+    border-radius: 7px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .productInfo span {
+    text-align: end;
+    font-size: 14px;
+  }
+  .productInfo:hover {
+    color: white;
+    border-radius: 20px;
+    background-color: #FF8000;
+    transform: translate(0, -5px);
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
